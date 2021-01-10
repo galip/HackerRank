@@ -1,11 +1,13 @@
 package warmUpChallengess;
+
 /**
  * @author galip
  *
- * 2020-12-29
+ *         2020-12-29
  * 
- *  Question link : https://www.hackerrank.com/challenges/repeated-string/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
- *  
+ *         Question link :
+ *         https://www.hackerrank.com/challenges/repeated-string/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
+ * 
  */
 public class RepeatedString {
 	public static void main(String args[]) {
