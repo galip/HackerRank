@@ -25,18 +25,18 @@ public class CountingValleys {
 	public static int countingValleys(int steps, String path) {
 		char pathArray[] = path.toCharArray();
 
-		int valley = 0;
-		int count = 0;
+		int valleyCount = 0;
+		int stepLevel = 0;
 		for (int i = 0; i < steps; i++) {
 			if (pathArray[i] == 'U') {
-				count++;
-				if (count == 0) {
-					valley++;
+				stepLevel++;
+				if (stepLevel == 0) {
+					valleyCount++;
 				}
 			} else {
-				count--;
+				stepLevel--;
 			}
 		}
-		return valley;
+		return valleyCount;
 	}
 }
