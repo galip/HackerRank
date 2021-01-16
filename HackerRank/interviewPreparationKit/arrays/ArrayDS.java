@@ -1,5 +1,13 @@
 package arrays;
 
+/**
+ * @author galip
+ *
+ *         2021-01-15
+ * 
+ *         Question link :
+ *         https://www.hackerrank.com/challenges/2d-array/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
+ */
 public class ArrayDS {
 	public static void main(String args[]) {
 
@@ -9,14 +17,14 @@ public class ArrayDS {
 
 		int[][] secondArr = { { 1, 1, 1, 0, 0, 0 }, { 0, 1, 0, 0, 0, 0 }, { 1, 1, 1, 0, 0, 0 }, { 0, 0, 2, 4, 4, 0 },
 				{ 0, 0, 0, 2, 0, 0 }, { 0, 0, 1, 2, 4, 0 } };
-		
+
 		System.out.println(hourglassSum(secondArr));
 
 	}
 
 	static int hourglassSum(int[][] arr) {
 		int hourGlassSum = 0;
-		int highestHourGlassSum = -63; //hourglass has 7 edge, the least number can be 7*(-9)
+		int highestHourGlassSum = -63; // hourglass has 7 edge, the least number can be 7*(-9)
 
 		for (int i = 0; i < 4; i++) {
 			for (int j = 0; j < 4; j++) {
