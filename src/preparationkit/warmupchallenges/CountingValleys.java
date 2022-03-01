@@ -1,4 +1,4 @@
-package warmUpChallengess;
+package preparationkit.warmupchallenges;
 
 /**
  * @author galip

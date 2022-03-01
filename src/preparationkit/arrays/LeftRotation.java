@@ -1,4 +1,4 @@
-package arrays;
+package preparationkit.arrays;
 
 /**
  * @author galip

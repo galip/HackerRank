@@ -1,4 +1,4 @@
-package sorting;
+package preparationkit.sorting;
 
 /**
  * @author galip
